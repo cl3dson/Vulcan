@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["es2019","esnext.asynciterable"],
+    "types": ["reflect-metadata", "node"],
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": ["lib/**/*.ts"],
+  "exclude": ["node_modules", "tests"],
+  "baseUrl": "lib",
+  "buildOnSave": true,
+  "compileOnSave": true
+}
